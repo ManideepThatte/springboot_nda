@@ -57,8 +57,5 @@ EmployeeController {
     public ResponseEntity<Employee> getByEmail(@RequestParam String email){
             return employeeService.findByEmail(email);
     }
-
-    public String mesg(){
-        return "hellow world";
-    }
+    
 }
