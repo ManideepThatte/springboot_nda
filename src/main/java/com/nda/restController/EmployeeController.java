@@ -57,5 +57,3 @@ EmployeeController {
     public ResponseEntity<Employee> getByEmail(@RequestParam String email){
             return employeeService.findByEmail(email);
     }
-    
-}
